@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mr. Digitals Web Services - Programming & IT Specialist</title>
+  <meta name="description" content="Portfolio of a Programming/IT Specialist offering full-stack development, automation, cloud/DevOps, and IT operations." />
+  <link rel="icon" href="./assets/logo/MrDigitalLogo.png" type="image/png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
+  <meta property="og:title" content="Mr. Digitals Web Services" />
+  <meta property="og:description" content="Reliable software & secure IT systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/brand/MrDigitalHero-graphic.png" />
+</head>
+<body class="theme-dark">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container header__inner">
+      <a href="#hero" class="brand" aria-label="Mr. Digitals home">
+        <img src="./assets/logo/MrDigitalLogo.png" alt="Mr. Digitals" width="72" height="72" />
+        <span class="brand__text">Mr. Digitals</span>
+      </a>
+      <button class="nav__toggle" aria-controls="site-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav__toggle-label" aria-hidden="true">Menu</span>
+      </button>
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li><li><a href="#certs">Certifications</a></li><li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__cta">
+          <a class="btn btn--primary" href="./assets/Nicolas_Laverde_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <button class="btn btn--ghost" id="theme-toggle" aria-pressed="true" aria-label="Toggle color theme">Dark mode</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="hero" class="section hero" aria-label="Introduction">
+      <div class="hero__decor" aria-hidden="true">
+        <span class="hero__glow hero__glow--one"></span>
+        <span class="hero__glow hero__glow--two"></span>
+        <span class="hero__beam"></span>
+      </div>
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1>Building reliable software & secure IT systems</h1>
+          <p class="lead">I design, build, and maintain reliable web applications, automation pipelines, and IT infrastructure — uniting software development and systems administration to improve efficiency, uptime, and business performance.</p>
+          <div class="hero__badges"><span class="badge">Full-stack</span><span class="badge">Cloud/DevOps</span><span class="badge">Security</span><span class="badge">IT Ops</span></div>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--secondary" href="mailto:NickLaverde90@gmail.com">Email Me</a>
+            <a class="btn btn--outline" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn--outline" href="https://www.linkedin.com/in/nicolas-laverde-104b14253" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <figure class="hero__media">
+          <img src="./assets/brand/MrDigitalHero-graphic.png" alt="Abstract tech illustration" width="640" height="480" fetchpriority="high" decoding="async" />
+        </figure>
+      </div>
+    </section>
+    <section id="about" class="section about">
+      <div class="container">
+        <header class="section__header"><h2>About</h2><p class="section__tagline">Who I am & how I work</p></header>
+        <div class="about__grid">
+          <article class="about__content prose">
+            <p>I'm <strong>Nicolas Laverde</strong>, the specialist behind <strong>Mr. Digitals Web Services</strong>. I turn complex challenges into simple, scalable, secure systems - across the stack and the cloud.</p>
+            <p>My focus: readable code, consistent patterns, and testable designs - backed by ops discipline around resilience, cost, and security.</p>
+            <ul class="about__highlights">
+              <li>Full-stack development tailored to your business goals</li>
+              <li>Cloud-native architecture with security and cost controls baked in</li>
+              <li>Calm, detail-driven delivery from kickoff to launch</li>
+            </ul>
+          </article>
+          <aside class="about__aside">
+            <div class="about__portrait">
+              <img class="about__headshot" src="./assets/headshots/7b804cdf-2dd6-43bc-85df-75d4c96b5994.png" alt="Portrait of Nicolas Laverde" width="320" height="320" />
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section skills">
+      <div class="container">
+        <header class="section__header"><h2>Skills</h2><p class="section__tagline">From Big Picture to Fine Detail</p></header>
+        <div class="cards cards--grid-3">
+          <article class="card"><h3>Languages</h3><ul class="tags"><li>TypeScript</li><li>Python</li><li>SQL</li><li>Bash</li><li>C#</li></ul></article>
+          <article class="card"><h3>Frontend</h3><ul class="tags"><li>React</li><li>Next.js</li><li>Tailwind</li><li>Vite</li></ul></article>
+          <article class="card"><h3>Backend</h3><ul class="tags"><li>Node.js</li><li>Express</li><li>FastAPI</li><li>GraphQL</li></ul></article>
+          <article class="card"><h3>Cloud / DevOps</h3><ul class="tags"><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Terraform</li><li>GitHub Actions</li></ul></article>
+          <article class="card"><h3>Data & Tools</h3><ul class="tags"><li>PostgreSQL</li><li>Redis</li><li>Grafana</li><li>Prometheus</li><li>Sentry</li></ul></article>
+          <article class="card"><h3>IT / Security</h3><ul class="tags"><li>Win/Linux Admin</li><li>AD & SSO</li><li>Intune/MECM</li><li>Networking</li><li>IAM</li></ul></article>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section projects">
+      <div class="container">
+        <header class="section__header"><h2>Projects</h2><p class="section__tagline">Selected work</p></header>
+        <div class="cards cards--grid-3">
+          <article class="card project">
+            <div class="project__media"><img src="./assets/projects/UnderConstrution-texture-background-concept-for-do-not-577360990.jpg" alt="Project under construction placeholder" loading="lazy" decoding="async" /></div>
+            <div class="project__body">
+              <h3>Townley Engineering Platform</h3>
+              <ul class="tags"><li>Full-stack</li><li>Node.js</li><li>SQL</li><li>Docker</li></ul>
+              <p>Townley Engineering Platform &mdash; A full-stack web app that helps an industrial company&rsquo;s customers find the right parts, build custom configurations, get instant quotes, track orders, download CAD/datasheets, and send field feedback&mdash;securely and fast.</p>
+            </div>
+            <footer class="project__footer"><a class="btn btn--sm btn--primary" href="#townley-case-study" data-modal-target="townley-case-study">Read Case Study</a><a class="btn btn--sm btn--outline" href="#contact">Contact Me</a></footer>
+          </article>
+          <article class="card project">
+            <div class="project__media"><img src="./assets/projects/UnderConstrution-texture-background-concept-for-do-not-577360990.jpg" alt="Project under construction placeholder" loading="lazy" decoding="async" /></div>
+            <div class="project__body">
+              <h3>IT Ops Automation Suite</h3>
+              <ul class="tags"><li>Python</li><li>PowerShell</li><li>Automation</li><li>DevOps</li></ul>
+              <p>IT Ops Automation Suite — A toolkit I built to help IT teams save time by automating daily computer maintenance tasks.</p>
+            </div>
+            <footer class="project__footer"><a class="btn btn--sm btn--primary" href="#it-ops-automation" data-modal-target="it-ops-automation">View Details</a><a class="btn btn--sm btn--outline" href="#contact">Contact Me</a></footer>
+          </article>
+          <article class="card project">
+            <div class="project__media"><img src="./assets/projects/UnderConstrution-texture-background-concept-for-do-not-577360990.jpg" alt="Project under construction placeholder" loading="lazy" decoding="async" /></div>
+            <div class="project__body">
+              <h3>MrDigitals Portfolio CMS</h3>
+              <ul class="tags"><li>Next.js</li><li>Supabase</li><li>Node.js</li><li>TailwindCSS</li></ul>
+              <p>MrDigitals Portfolio CMS — A custom content management system I built for my own portfolio with instant publishing, SEO metadata, and theme controls.</p>
+            </div>
+            <footer class="project__footer"><a class="btn btn--sm btn--primary" href="#mrdigitals-cms" data-modal-target="mrdigitals-cms">View Details</a><a class="btn btn--sm btn--outline" href="#contact">Contact Me</a></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="townley-case-study" class="section case-study" aria-labelledby="townley-case-study-title" data-modal-content>
+      <div class="container case-study__inner">
+        <div class="case-study__top">
+          <p class="case-study__eyebrow">Project Spotlight</p>
+          <h2 id="townley-case-study-title">Townley Engineering Platform</h2>
+          <p class="case-study__lead">A website I built that helps a factory choose the right parts, ask for quotes, and track orders—all in one place.</p>
+          <div class="case-study__cta">
+            <a class="btn btn--primary" href="#townley-case-study-details">View Case Study</a>
+            <a class="btn btn--secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="case-study__badges">
+          <span class="badge">Vite</span>
+          <span class="badge">Modern JS</span>
+          <span class="badge">Node.js</span>
+          <span class="badge">SQL</span>
+          <span class="badge">Docker</span>
+          <span class="badge">Nginx</span>
+        </div>
+        <div class="case-study__summary">
+          <p>Townley makes tough parts for harsh environments. Choosing the right part used to take lots of emails. I built a single platform where customers can search the catalog, customize parts with a guided configurator, get instant RFQs, and track orders/warranties. They can also download CAD files and datasheets and submit performance feedback with photos. I handled the full stack (frontend with Vite, backend with Node.js, SQL database) and Docker/Nginx for deployment. The result: faster quoting, fewer back-and-forth messages, and happier customers.</p>
+        </div>
+        <div id="townley-case-study-details" class="case-study__content">
+          <div class="case-study__column">
+            <h3>The problem</h3>
+            <p>Townley makes heavy-duty parts. Picking the right part is confusing. People also need quotes, order updates, and files. Everything was scattered.</p>
+            <h3>What I built</h3>
+            <p>An all-in-one web app where customers can:</p>
+            <ul class="case-study__list">
+              <li>Search parts</li>
+              <li>Build the exact part they need (a configurator)</li>
+              <li>Get instant RFQs (quotes)</li>
+              <li>Track orders and warranties</li>
+              <li>Download files like CAD and datasheets</li>
+              <li>Send performance feedback with photos + notes</li>
+            </ul>
+            <h3>Impact</h3>
+            <ul class="case-study__list">
+              <li>Quoting became faster (from days to hours).</li>
+              <li>Reduced back-and-forth between sales and customers.</li>
+              <li>Customers can self-serve files 24/7.</li>
+            </ul>
+          </div>
+          <div class="case-study__column">
+            <h3>Coolest features</h3>
+            <ul class="case-study__features">
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🔎</span>
+                <div class="case-study__feature-content">
+                  <strong>Smart Catalog</strong>
+                  <span class="case-study__feature-text">Find parts fast with filters.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🧩</span>
+                <div class="case-study__feature-content">
+                  <strong>Configurator</strong>
+                  <span class="case-study__feature-text">Choose size/material/options → instant RFQ.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">📦</span>
+                <div class="case-study__feature-content">
+                  <strong>Customer Portal</strong>
+                  <span class="case-study__feature-text">See RFQs, orders, and warranties.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">📎</span>
+                <div class="case-study__feature-content">
+                  <strong>Files</strong>
+                  <span class="case-study__feature-text">CAD, datasheets, manuals in one place.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">📝</span>
+                <div class="case-study__feature-content">
+                  <strong>Field Feedback</strong>
+                  <span class="case-study__feature-text">Upload photos + wear data from the field.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🔐</span>
+                <div class="case-study__feature-content">
+                  <strong>Secure Login</strong>
+                  <span class="case-study__feature-text">Roles for customers, distributors, and staff.</span>
+                </div>
+              </li>
+            </ul>
+            <h3>My role</h3>
+            <p>Full-stack developer &amp; builder: designed the database, coded the backend, built the pages, added login, and set up Docker for deployment.</p>
+            <h3>Tech I used</h3>
+            <ul class="case-study__list">
+              <li>Frontend: Vite + modern JS (fast pages)</li>
+              <li>Backend: Node.js (the brain)</li>
+              <li>Database: SQL (stores products, orders, users)</li>
+              <li>Docker + Nginx (easy to run anywhere)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="case-study__gallery" aria-label="Townley Engineering platform screens">
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Home / Catalog</span></div>
+            <figcaption>Home and catalog view highlighting search and filters.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Configurator</span></div>
+            <figcaption>Configurator guiding configurations before generating an instant RFQ.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Portal</span></div>
+            <figcaption>Portal dashboard showing RFQs, active orders, and warranty status.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>File Viewer</span></div>
+            <figcaption>Centralized file viewer for CAD models, datasheets, and manuals.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Feedback</span></div>
+            <figcaption>Field feedback form with photo upload and wear data notes.</figcaption>
+          </figure>
+        </div>
+        <div class="case-study__diagram">
+          <h3>How it works</h3>
+          <p>Browser → Frontend (Vite) → Backend API (Node.js) → SQL database.</p>
+          <p>File storage serves CAD &amp; datasheets alongside order history.</p>
+          <p>Login system covers customers, distributors, and staff roles.</p>
+        </div>
+        <div class="case-study__cta case-study__cta--bottom">
+          <a class="btn btn--primary" href="#townley-case-study-details">View Case Study</a>
+          <a class="btn btn--outline" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">GitHub / Code</a>
+          <a class="btn btn--secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+    <section id="it-ops-automation" class="section case-study" aria-labelledby="it-ops-automation-title" data-modal-content>
+      <div class="container case-study__inner">
+        <div class="case-study__top">
+          <p class="case-study__eyebrow">Automation Toolkit</p>
+          <h2 id="it-ops-automation-title">IT Ops Automation Suite</h2>
+          <p class="case-study__lead">A toolkit I built to help IT teams save time by automating daily computer maintenance tasks.</p>
+          <div class="case-study__cta">
+            <a class="btn btn--primary" href="#it-ops-automation-gallery">View Demo / Screenshots</a>
+            <a class="btn btn--secondary" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">View Code on GitHub</a>
+            <a class="btn btn--outline" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="case-study__content">
+          <div class="case-study__column">
+            <h3>The problem</h3>
+            <p>In IT work, you repeat the same steps — backups, system checks, updates. I wanted to stop wasting time doing it by hand.</p>
+            <h3>The solution</h3>
+            <p>I made a set of automation scripts that run these tasks automatically or with one click — kind of like smart buttons for IT work.</p>
+            <h3>Why it&rsquo;s cool</h3>
+            <p>It works on any computer, runs from a dashboard or command line, and saves hours of manual IT work.</p>
+            <h3>My role</h3>
+            <p>I built the whole toolkit — wrote the scripts, connected them into one system, and made the dashboard.</p>
+          </div>
+          <div class="case-study__column">
+            <h3>What it does</h3>
+            <ul class="case-study__features">
+              <li>
+                <span class="case-study__icon" aria-hidden="true">💾</span>
+                <div class="case-study__feature-content">
+                  <strong>Backup Manager</strong>
+                  <span class="case-study__feature-text">Uses Robocopy or rsync to save files safely.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🌐</span>
+                <div class="case-study__feature-content">
+                  <strong>Network Fixer</strong>
+                  <span class="case-study__feature-text">Pings devices and restarts adapters if needed.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🧮</span>
+                <div class="case-study__feature-content">
+                  <strong>Inventory Collector</strong>
+                  <span class="case-study__feature-text">Lists every PC&rsquo;s specs and installed software.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">✉️</span>
+                <div class="case-study__feature-content">
+                  <strong>Email Alerts</strong>
+                  <span class="case-study__feature-text">Sends reports and warnings automatically.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🖥️</span>
+                <div class="case-study__feature-content">
+                  <strong>Web Dashboard / CLI</strong>
+                  <span class="case-study__feature-text">Run everything from a browser or command line.</span>
+                </div>
+              </li>
+            </ul>
+            <h3>Tech I used</h3>
+            <div class="case-study__badges case-study__badges--wide">
+              <span class="badge">🐍 Python</span>
+              <span class="badge">🪟 PowerShell</span>
+              <span class="badge">📋 SQLite</span>
+              <span class="badge">📧 SMTP Email</span>
+              <span class="badge">☁️ Cross-platform</span>
+            </div>
+          </div>
+        </div>
+        <div id="it-ops-automation-gallery" class="case-study__gallery" aria-label="IT Ops Automation Suite visuals">
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Backup CLI</span></div>
+            <figcaption>Automatic backup completed ✅</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Dashboard</span></div>
+            <figcaption>System dashboard showing health checks and job status.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Email Report</span></div>
+            <figcaption>Scheduled report email with alerts and daily summary.</figcaption>
+          </figure>
+        </div>
+        <div class="case-study__cta case-study__cta--bottom">
+          <a class="btn btn--primary" href="#it-ops-automation-gallery">View Demo / Screenshots</a>
+          <a class="btn btn--outline" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">View Code on GitHub</a>
+          <a class="btn btn--secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+    <section id="mrdigitals-cms" class="section case-study" aria-labelledby="mrdigitals-cms-title" data-modal-content>
+      <div class="container case-study__inner">
+        <div class="case-study__top">
+          <p class="case-study__eyebrow">Portfolio Engine</p>
+          <h2 id="mrdigitals-cms-title">MrDigitals Portfolio CMS</h2>
+          <p class="case-study__lead">The custom system I built to run my own portfolio — modern, fast, and fully in my control.</p>
+          <div class="case-study__cta">
+            <a class="btn btn--primary" href="#mrdigitals-cms-gallery">View Demo / Screenshots</a>
+            <a class="btn btn--secondary" href="https://mrdigitals.com" target="_blank" rel="noopener">View Live Site</a>
+            <a class="btn btn--outline" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">View Code on GitHub</a>
+            <a class="btn btn--secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="case-study__content">
+          <div class="case-study__column">
+            <h3>The problem</h3>
+            <p>Most portfolio sites are static — you have to edit the code every time you want to add a new project. That&rsquo;s slow and messy.</p>
+            <h3>The solution</h3>
+            <p>So I made my own mini CMS that lets me log in, write about my projects, and publish them instantly — no code editing needed.</p>
+            <h3>What makes it special</h3>
+            <p>Unlike most templates, this one&rsquo;s built from scratch. It&rsquo;s fast, accessible, and designed with SEO in mind. Every project I add updates the structured data automatically &mdash; perfect for Google indexing and portfolio growth.</p>
+            <h3>My role</h3>
+            <p>Full-stack developer &amp; designer — built everything from UI design to the database connection and deployment.</p>
+          </div>
+          <div class="case-study__column">
+            <h3>Cool features</h3>
+            <ul class="case-study__features">
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🧩</span>
+                <div class="case-study__feature-content">
+                  <strong>Dynamic Project Cards</strong>
+                  <span class="case-study__feature-text">Every new project you add appears automatically on your homepage.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🌗</span>
+                <div class="case-study__feature-content">
+                  <strong>Dark / Light Themes</strong>
+                  <span class="case-study__feature-text">Switches instantly and saves your preference.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">⚙️</span>
+                <div class="case-study__feature-content">
+                  <strong>Admin Dashboard</strong>
+                  <span class="case-study__feature-text">Easy panel for adding or updating portfolio items.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">🔍</span>
+                <div class="case-study__feature-content">
+                  <strong>SEO + JSON-LD</strong>
+                  <span class="case-study__feature-text">Auto-creates meta tags so Google understands your site.</span>
+                </div>
+              </li>
+              <li>
+                <span class="case-study__icon" aria-hidden="true">☁️</span>
+                <div class="case-study__feature-content">
+                  <strong>GitHub / Supabase Sync</strong>
+                  <span class="case-study__feature-text">Saves data and images securely.</span>
+                </div>
+              </li>
+            </ul>
+            <h3>Tech I used</h3>
+            <div class="case-study__badges case-study__badges--wide">
+              <span class="badge">⚛️ Next.js</span>
+              <span class="badge">🪐 Astro</span>
+              <span class="badge">🗃️ Supabase</span>
+              <span class="badge">🧑‍💻 Node.js</span>
+              <span class="badge">💅 TailwindCSS</span>
+              <span class="badge">🌗 Theme Toggle</span>
+              <span class="badge">📈 JSON-LD / SEO</span>
+            </div>
+          </div>
+        </div>
+        <div id="mrdigitals-cms-gallery" class="case-study__gallery" aria-label="MrDigitals Portfolio CMS visuals">
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Admin Dashboard</span></div>
+            <figcaption>Add a new project in 10 seconds.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Home Page</span></div>
+            <figcaption>Homepage updates instantly with dynamic project cards.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>Dark Mode</span></div>
+            <figcaption>Light and dark themes toggle on demand.</figcaption>
+          </figure>
+          <figure class="case-study__figure">
+            <div class="case-study__mockup" aria-hidden="true"><span>SEO Preview</span></div>
+            <figcaption>JSON-LD and meta preview for every project.</figcaption>
+          </figure>
+        </div>
+        <div class="case-study__cta case-study__cta--bottom">
+          <a class="btn btn--primary" href="#mrdigitals-cms-gallery">View Demo / Screenshots</a>
+          <a class="btn btn--secondary" href="https://mrdigitals.com" target="_blank" rel="noopener">View Live Site</a>
+          <a class="btn btn--outline" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">View Code on GitHub</a>
+          <a class="btn btn--secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="section experience">
+      <div class="container"><header class="section__header"><h2>Experience</h2></header>
+        <ol class="timeline">
+          <li class="timeline__item"><div class="timeline__head"><h3>IT Specialist / System Administrator - Townley Engineering & Manufacturing</h3><time datetime="2025">Feb 2025-Present</time></div>
+            <ul class="bullets"><li>Migrated legacy Microsoft Access workflows to a secure web platform.</li><li>Built real-time work-order and inspection tracking to increase production visibility.</li><li>Designed centralized customer/parts database to reduce redundancy and errors.</li><li>Administer servers, networks, endpoints, AD &amp; GPO; resolve issues quickly to maintain reliability.</li></ul>
+          </li>
+          <li class="timeline__item"><div class="timeline__head"><h3>Web Developer - Mr. Digitals Web Solutions</h3><time datetime="2024">Sep 2024-Present</time></div>
+            <ul class="bullets"><li>Built and maintained client sites using modern frameworks/CMS; implemented SEO strategies and analytics.</li><li>Drove visibility and ROI through targeted content, performance tuning, and A/B testing.</li></ul>
+          </li>
+          <li class="timeline__item"><div class="timeline__head"><h3>Operations Technician - Roberts Funeral Home of Ocala</h3><time datetime="2023">Oct 2023-Jul 2024</time></div>
+            <ul class="bullets"><li>Redesigned website; increased online inquiries by 15%.</li><li>Resolved IT issues to streamline online contract processing and documentation.</li></ul>
+          </li>
+          <li class="timeline__item"><div class="timeline__head"><h3>Manager / Transfer Care Specialist - Nature Coast Mortuary Transport</h3><time datetime="2019">Dec 2019-Oct 2023</time></div>
+            <ul class="bullets"><li>Launched a website that increased service inquiries by 20% in six months.</li><li>Supervised 5 drivers across 3 counties; implemented vehicle tracking and automated records.</li></ul>
+          </li>
+          <li class="timeline__item"><div class="timeline__head"><h3>Tier 2 Technical Support - Sitel Group</h3><time datetime="2016">Mar 2016-Oct 2019</time></div>
+            <ul class="bullets"><li>Resolved 2,000+ tickets with 85% CSAT; improved UI flows in web tools for easier navigation.</li><li>Delivered remote software and hardware support with rapid time-to-resolution.</li></ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section id="certs" class="section certs">
+      <div class="container">
+        <header class="section__header"><h2>Certifications & Education</h2></header>
+        <div class="certs__layout">
+          <div class="certs__column">
+            <h3>Certifications</h3>
+            <ul class="tags tags--wrap">
+              <li>AWS Certified Solutions Architect - Associate (2024)</li>
+              <li>Working towards CompTIA Security+ (2023)</li>
+              <li>CPR, AED, First Aid (Valid Jan 2025-Jan 2027)</li>
+              <li>Crematory Operator Training (FL) - Current</li>
+              <li>Combating Medicare Parts C &amp; D Fraud, Waste &amp; Abuse - Current</li>
+            </ul>
+          </div>
+          <div class="certs__column">
+            <h3>Education</h3>
+            <ul class="edu-list">
+              <li>
+                <div class="edu__degree">B.S., Computer &amp; Information Sciences</div>
+                <div class="edu__meta">Rasmussen University &middot; Dec 2022 - Sep 2024</div>
+                <p class="edu__summary">Core work in Python, Java, C++, SQL, algorithms, operating systems, IT infrastructure, cloud, and security; collaborative Agile projects.</p>
+              </li>
+              <li>
+                <div class="edu__degree">A.S., Software Application Development</div>
+                <div class="edu__meta">Rasmussen University &middot; Jun 2021 - Dec 2022</div>
+                <p class="edu__summary">Focused on Python, Java, C#, JavaScript, SQL, SDLC fundamentals, and capstone app builds.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resume" class="section resume">
+      <div class="container">
+        <header class="section__header"><h2>Resume</h2><a class="btn btn--secondary" href="./assets/Nicolas_Laverde_Resume.pdf" target="_blank" rel="noopener">Download PDF</a></header>
+        <article class="prose">
+          <h3>Nicolas Laverde - Programming / IT Specialist</h3>
+          <p><strong>Email:</strong> <a href="mailto:NickLaverde90@gmail.com">NickLaverde90@gmail.com</a> - <strong>GitHub:</strong> <a href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">Nicklaverde90</a> - <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nicolas-laverde-104b14253" target="_blank" rel="noopener">/in/nicolas-laverde-104b14253</a></p>
+          <h4>Summary</h4><p>Hands-on technologist delivering secure, scalable systems across full-stack dev, automation, and cloud.</p>
+          <h4>Core Skills</h4><p>TypeScript, Python, SQL, Bash - React/Next.js - Node/FastAPI/GraphQL - AWS/Docker/K8s/Terraform - AD/SSO/Intune - IAM/OWASP</p>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__intro">
+            <header class="section__header"><h2>Contact</h2><p class="section__tagline">Let's build something reliable</p></header>
+            <div class="contact__card">
+              <h3 class="contact__headline">Let's ship your next launch</h3>
+              <p>Tell me about the outcome you need--I'll map the code, automation, and infrastructure to deliver it.</p>
+              <div class="contact__chips"><span class="contact__chip">Replies within <strong>24 hrs</strong></span><span class="contact__chip">Eastern Time (ET)</span><span class="contact__chip">Remote + On-site (FL)</span></div>
+              <ul class="contact__channels">
+                <li>
+                  <a class="contact__channel" href="mailto:NickLaverde90@gmail.com">
+                    <span class="contact__channel-icon"><img src="./assets/icons/email.svg" alt="" /></span>
+                    <span class="contact__channel-body"><span class="contact__channel-label">Email</span><span class="contact__channel-value">NickLaverde90@gmail.com</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact__channel" href="tel:+13525757286">
+                    <span class="contact__channel-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path d="M6.5 3.5 9.4 5.6a1 1 0 0 1 .4 1.2l-1 2.6a1 1 0 0 0 .2 1.1l4.3 4.3a1 1 0 0 0 1.1.2l2.6-1a1 1 0 0 1 1.2.4l2.1 3.1a1 1 0 0 1-.2 1.3l-1.4 1.1a3.2 3.2 0 0 1-3.4.3 26.4 26.4 0 0 1-9.7-9.7 3.2 3.2 0 0 1 .3-3.4l1.1-1.4a1 1 0 0 1 1.3-.2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                    <span class="contact__channel-body"><span class="contact__channel-label">Call</span><span class="contact__channel-value">+1 (352) 575-7286</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact__channel" href="https://github.com/Nicklaverde90" target="_blank" rel="noopener">
+                    <span class="contact__channel-icon"><img src="./assets/icons/github.svg" alt="" /></span>
+                    <span class="contact__channel-body"><span class="contact__channel-label">GitHub</span><span class="contact__channel-value">Nicklaverde90</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contact__channel" href="https://www.linkedin.com/in/nicolas-laverde-104b14253" target="_blank" rel="noopener">
+                    <span class="contact__channel-icon"><img src="./assets/icons/linkedin.svg" alt="" /></span>
+                    <span class="contact__channel-body"><span class="contact__channel-label">LinkedIn</span><span class="contact__channel-value">/in/nicolas-laverde-104b14253</span></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="contact__form" action="https://formspree.io/f/xkgvldbe" method="POST">
+            <h3>Share project details</h3>
+            <p class="contact__form-copy">Include timelines, stack preferences, or pain points--I'll follow up with next steps.</p>
+            <div class="contact__row">
+              <div class="field"><label for="name">Name</label><input id="name" name="name" required /></div>
+              <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+            </div>
+            <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="6" required></textarea></div>
+            <button class="btn btn--primary" type="submit">Send Message</button>
+            <p class="contact__privacy">No spam--just one thoughtful reply with real solutions.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Mr. Digitals Web Services</p>
+      <nav class="nav nav--footer" aria-label="Footer">
+        <a href="./assets/Nicolas_Laverde_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <div class="social">
+        <a href="https://github.com/Nicklaverde90" aria-label="GitHub" target="_blank" rel="noopener"><img src="./assets/icons/github.svg" alt="" /></a>
+        <a href="https://www.linkedin.com/in/nicolas-laverde-104b14253" aria-label="LinkedIn" target="_blank" rel="noopener"><img src="./assets/icons/linkedin.svg" alt="" /></a>
+        <a href="mailto:NickLaverde90@gmail.com" aria-label="Email"><img src="./assets/icons/email.svg" alt="" /></a>
+      </div>
+    </div>
+  </footer>
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="project-modal-heading" tabindex="-1">
+      <button class="modal__close" type="button" data-modal-close aria-label="Close project details">Close</button>
+      <h2 id="project-modal-heading" class="sr-only">Project details</h2>
+      <div class="modal__content"></div>
+    </div>
+  </div>
+  <noscript><div class="noscript">This site works best with JavaScript enabled, but all content is accessible.</div></noscript>
+</body>
+</html>
